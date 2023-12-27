@@ -1,0 +1,12 @@
+﻿{
+    "Key":"Dev",
+    "Version":"0.01",
+    "LoginIP":"ingame.djmusic.me",
+    "LoginPort":"9090",
+    "FirmID":"1",
+    "GameType":"SweetBonanza",
+    "InfoUrl":"http://192.168.128.193/client/",
+    "GameErrorUrl":"http://192.168.128.179:8088/api/game_error",
+    "HistoryUrl":"http://www.666wins.com/as-lobby/lobby/getAsinLogIndx.do",
+    "UseSpMode":"true"
+}	

@@ -1,0 +1,271 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Megawin Casino</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="full-screen" content="true" />
+    <meta name="screen-orientation" content="portrait" />
+    <meta name="x5-fullscreen" content="true" />
+    <meta name="360-fullscreen" content="true" />
+    <style>
+        html, body {
+            -ms-touch-action: none;
+            background: #000000;
+            padding: 0;
+            border: 0;
+            margin: 0;
+            height: 100%;
+        }
+        #preloading{
+            z-index: 1000;
+            position: absolute;
+            text-align: center;
+            top: 40%;
+            left: 40%;
+            width: 20%;
+            height: 20%;
+        }
+        #logoImg{
+            z-index: 1000;
+            position: absolute;
+            text-align: center;
+            top: 20%;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="margin: auto;width: 100%;height: 100%;" class="egret-player" data-entry-class="GameMain" data-orientation="landscape" data-scale-mode="showAll" data-frame-rate="60"
+data-content-width="1120" data-content-height="630" data-multi-fingered="1" data-show-fps="false" data-show-log="false" data-show-fps-style="x:0,y:0,size:12,textColor:0xffffff,bgAlpha:0.9">
+</div>
+<div id="preloading"><img id="preloadingImg" src="" /></div>
+<div id="logo" style="margin: auto;
+  width: 50%;"><img id="logoImg" src="" style="visibility:hidden"/></div>
+<script>
+    var returnCitySN = undefined;
+    function getIP2(json) {
+        //console.log(JSON.stringify(json));
+        localStorage.setItem("ip222", json.ip);
+    }
+    function getIP3(json) {
+        //console.log(JSON.stringify(json));
+        localStorage.setItem("ip333", json.query);
+    }
+    function getIP4(json) {
+        //console.log(JSON.stringify(json));
+        localStorage.setItem("ip444", json.ip);
+    }
+</script>
+<!--<script type="application/javascript" src="http://pv.sohu.com/cityjson?ie=utf-8"></script>
+<script type="application/javascript" src="https://api.ipify.org?format=jsonp&callback=getIP2"></script>
+<script type="application/javascript" src="http://ip-api.com/json/?fields=query&callback=getIP3"></script>-->
+<script src="./libs/modules/apngCanvas/apng-canvas.min.js"></script>
+<script type="application/javascript" src="https://ipapi.co/jsonp?callback=getIP4"></script>
+<script>
+    //console.log(JSON.stringify(returnCitySN));
+    if (returnCitySN != undefined && returnCitySN != null) {
+        localStorage.setItem("ip111", returnCitySN.cip);
+    }
+
+    var _img = document.getElementById('preloadingImg');
+    var newImg = new Image;
+
+    _img.style.visibility = "hidden";
+
+    newImg.onload = function () {
+        _img.src = this.src;
+        _img.style.visibility = "visible";
+    }
+
+    newImg.src = "./resource/assets/loading.gif?v=" + Math.random()
+
+    var loadScript = function (list, callback) {
+        var loaded = 0;
+        var loadNext = function () {
+            loadSingleScript(list[loaded], function () {
+                loaded++;
+                if (loaded >= list.length) {
+                    callback();
+                }
+                else {
+                    loadNext();
+                }
+            })
+        };
+        loadNext();
+    };
+
+    var loadSingleScript = function (src, callback) {
+        var s = document.createElement('script');
+        s.async = false;
+        s.src = src;
+        s.addEventListener('load', function () {
+            s.parentNode.removeChild(s);
+            s.removeEventListener('load', arguments.callee, false);
+            callback();
+        }, false);
+        document.body.appendChild(s);
+    };
+
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', './manifest.json?v=' + Math.random(), true);
+    xhr.addEventListener("load", function () {
+        var manifest = JSON.parse(xhr.response);
+        var list = manifest.initial.concat(manifest.game);
+        loadScript(list, function () {
+            /**
+             * {
+             * "renderMode":, //Engine rendering mode, "canvas" or "webgl"
+             * "audioType": 0 //Use the audio type, 0: default, 2: web audio, 3: audio
+             * "antialias": //Whether the anti-aliasing is enabled in WebGL mode, true: on, false: off, defaults to false
+             * "calculateCanvasScaleFactor": //a function return canvas scale factor
+             * }
+             **/
+            egret.runEgret({
+                renderMode: "webgl", audioType: 0, calculateCanvasScaleFactor: function (context) {
+                    var backingStore = context.backingStorePixelRatio ||
+                        context.webkitBackingStorePixelRatio ||
+                        context.mozBackingStorePixelRatio ||
+                        context.msBackingStorePixelRatio ||
+                        context.oBackingStorePixelRatio ||
+                        context.backingStorePixelRatio || 1;
+                    return (window.devicePixelRatio || 1) / backingStore;
+                }
+            });
+            let windowBar = 17, root = document.documentElement;
+            if (typeof window.innerWidth == "number") {
+                windowBar = window.innerWidth - root.clientWidth;
+            }
+            root.style.overflow = "hidden";
+            root.style.borderRight = windowBar + "px solid transparent";
+            //document.getElementById("preloading").style.display = "none";
+            //document.getElementById("logoImg").style.display = "none";
+        });
+    });
+    xhr.send(null);
+
+
+    var APNGPlay = function () {
+        APNG.ifNeeded().then(function () {
+            APNG.animateImage(preloadingImg);
+        });
+    }
+
+    var setAPNG = function (url) {
+        console.log(url);
+        var logoImg = document.getElementById('logoImg');
+        var newImg = new Image;
+        newImg.src = url;
+        newImg.onload = function () {
+            logoImg.src = this.src;
+            logoImg.style.visibility = "visible";
+            APNGPlay();
+        }
+
+    }
+
+    var DisableAPNGLogo = function () {
+        var logoImg = document.getElementById('logoImg');
+        logoImg.style.visibility = "hidden";
+    }
+
+    var APNGLogoChangeUI = function () {
+        var logoImg = document.getElementById('logoImg');
+        var size = window.innerWidth / window.innerHeight;
+        console.log("window : " + window.innerWidth / window.innerHeight);
+        if (egret.Capabilities.isMobile) {
+            if (size > 1.5) {
+                logoImg.style.width = "50%";
+                logoImg.style.top = "25%";
+                logoImg.style.left = "25%";
+            }
+            else if (size > 1) {
+                logoImg.style.width = "50%";
+                logoImg.style.top = "20%";
+                logoImg.style.left = "25%";
+            }
+            else if (size > 0.8) {
+                logoImg.style.width = "50%";
+                logoImg.style.top = "15%";
+                logoImg.style.left = "25%";
+            }
+            else if (size > 0.6) {
+                logoImg.style.transform = "rotate(90deg)";
+                logoImg.style.width = "90%";
+                logoImg.style.top = "42%";
+                logoImg.style.left = "15%";
+            }
+            else {
+                logoImg.style.transform = "rotate(90deg)";
+                logoImg.style.width = "90%";
+                logoImg.style.top = "42%";
+                logoImg.style.left = "15%";
+            }
+        }
+        else {
+            if (size > 1.5) {
+                logoImg.style.width = "50%";
+                logoImg.style.top = "25%";
+                logoImg.style.left = "25%";
+            }
+            else if (size > 1) {
+                logoImg.style.width = "50%";
+                logoImg.style.top = "20%";
+                logoImg.style.left = "25%";
+            }
+            else if (size > 0.8) {
+                logoImg.style.width = "50%";
+                logoImg.style.top = "15%";
+                logoImg.style.left = "25%";
+            }
+            else if (size > 0.6) {
+                logoImg.style.width = "50%";
+                logoImg.style.top = "10%";
+                logoImg.style.left = "25%";
+            }
+            else {
+                logoImg.style.width = "50%";
+                logoImg.style.top = "10%";
+                logoImg.style.left = "25%";
+            }
+        }
+    }
+    var APNGLogoChangeSwitchUI = function () {
+        var logoImg = document.getElementById('logoImg');
+        var size = window.innerWidth / window.innerHeight;
+        console.log("window : " + window.innerWidth / window.innerHeight);
+
+        if (size > 1.65) {
+            logoImg.style.width = "50%";
+            logoImg.style.top = "25%";
+            logoImg.style.left = "25%";
+        }
+        else if (size > 1) {
+            logoImg.style.width = "50%";
+            logoImg.style.top = "30%";
+            logoImg.style.left = "25%";
+        }
+        else if (size > 0.8) {
+            logoImg.style.width = "50%";
+            logoImg.style.top = "35%";
+            logoImg.style.left = "25%";
+        }
+        else if (size > 0.6) {
+            logoImg.style.width = "60%";
+            logoImg.style.top = "35%";
+            logoImg.style.left = "20%";
+        }
+        else {
+            logoImg.style.width = "70%";
+            logoImg.style.top = "35%";
+            logoImg.style.left = "15%";
+        }
+    }
+</script>
+
+</body>
+
+</html>

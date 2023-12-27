@@ -1,0 +1,859 @@
+{
+	"groups": [
+		{
+			"keys": "gamesetting_txt,loading_gif",
+			"name": "preload"
+		},
+		{
+			"keys": "Slot_000_ICashCrownCommon,Slot_000_ICashCrownCommon_atlas0",
+			"name": "common"
+		},
+		{
+			"keys": "SlotBet_txt,SlotRate_txt,SlotLineName_txt,GameWinRate_txt,Localization_txt,ExcludeStack_txt,SlotIconRate_txt,SlotLine_txt,MiscData_txt,BuyBonus_txt",
+			"name": "table"
+		},
+		{
+			"keys": "Slot_000_LobbyLoader_CH,Slot_000_LobbyLoader_CH_atlas0,Slot_100_SweetBonanza_CH,Slot_100_SweetBonanza_CH_atlas0,Slot_100_SweetBonanza_EN,Slot_100_SweetBonanza_EN_atlas0",
+			"name": "NormalCH"
+		},
+		{
+			"keys": "Slot_000_LobbyLoader_EN,Slot_000_LobbyLoader_EN_atlas0,Slot_100_SweetBonanza_EN,Slot_100_SweetBonanza_EN_atlas0",
+			"name": "NormalEN"
+		},
+		{
+			"keys": "Slot_000_LobbyLoader,Slot_000_LobbyLoader_atlas0,Slot_100_SweetBonanza,Slot_100_SweetBonanza_atlas0,Slot_100_SweetBonanza_atlas0_1,Slot_100_SweetBonanza_atlas0_2,Slot_100_SweetBonanza_atlas0_3",
+			"name": "Game"
+		},
+		{
+			"keys": "Slot_000_LobbyLoader_WebP,Slot_000_LobbyLoader_WebP_atlas0,Slot_100_SweetBonanza_WebP,Slot_100_SweetBonanza_WebP_atlas0_3,Slot_100_SweetBonanza_WebP_atlas0_1,Slot_100_SweetBonanza_WebP_atlas0_2,Slot_100_SweetBonanza_WebP_atlas0",
+			"name": "Game_WebP"
+		},
+		{
+			"keys": "Slot_000_LobbyLoader_WebP_EN,Slot_000_LobbyLoader_WebP_EN_atlas0,Slot_100_SweetBonanza_WebP_EN,Slot_100_SweetBonanza_WebP_EN_atlas0",
+			"name": "Normal_WebPEN"
+		},
+		{
+			"keys": "Slot_000_LobbyLoader_WebP_CH,Slot_000_LobbyLoader_WebP_CH_atlas0,Slot_100_SweetBonanza_WebP_CH,Slot_100_SweetBonanza_WebP_CH_atlas0",
+			"name": "Normal_WebPTW"
+		},
+		{
+			"keys": "Slot_000_LobbyLoader_IN_atlas0,Slot_000_LobbyLoader_IN,Slot_100_SweetBonanza_IN_atlas0,Slot_100_SweetBonanza_IN,Slot_100_SweetBonanza_EN,Slot_100_SweetBonanza_EN_atlas0",
+			"name": "NormalIN"
+		},
+		{
+			"keys": "Slot_000_LobbyLoader_KR_atlas0,Slot_000_LobbyLoader_KR,Slot_100_SweetBonanza_KR_atlas0,Slot_100_SweetBonanza_KR,Slot_100_SweetBonanza_EN,Slot_100_SweetBonanza_EN_atlas0",
+			"name": "NormalKR"
+		},
+		{
+			"keys": "Slot_000_LobbyLoader_TH_atlas0,Slot_000_LobbyLoader_TH,Slot_100_SweetBonanza_TH_atlas0,Slot_100_SweetBonanza_TH,Slot_100_SweetBonanza_EN,Slot_100_SweetBonanza_EN_atlas0",
+			"name": "NormalTH"
+		},
+		{
+			"keys": "Slot_000_LobbyLoader_WebP_IN_atlas0,Slot_000_LobbyLoader_WebP_IN,Slot_100_SweetBonanza_WebP_IN,Slot_100_SweetBonanza_WebP_IN_atlas0",
+			"name": "Normal_WebPIN"
+		},
+		{
+			"keys": "Slot_000_LobbyLoader_WebP_TH,Slot_000_LobbyLoader_WebP_TH_atlas0,Slot_100_SweetBonanza_WebP_TH,Slot_100_SweetBonanza_WebP_TH_atlas0",
+			"name": "Normal_WebPTH"
+		},
+		{
+			"keys": "Slot_000_LobbyLoader_WebP_VT,Slot_000_LobbyLoader_WebP_VT_atlas0,Slot_100_SweetBonanza_WebP_VT,Slot_100_SweetBonanza_WebP_VT_atlas0",
+			"name": "Normal_WebPVT"
+		},
+		{
+			"keys": "Slot_000_LobbyLoader_JP,Slot_000_LobbyLoader_JP_atlas0,Slot_100_SweetBonanza_JP_atlas0,Slot_100_SweetBonanza_JP,Slot_100_SweetBonanza_EN,Slot_100_SweetBonanza_EN_atlas0",
+			"name": "NormalJP"
+		},
+		{
+			"keys": "Slot_000_LobbyLoader_WebP_JP,Slot_000_LobbyLoader_WebP_JP_atlas0,Slot_100_SweetBonanza_WebP_JP,Slot_100_SweetBonanza_WebP_JP_atlas0",
+			"name": "Normal_WebPJP"
+		},
+		{
+			"keys": "Slot_000_LobbyLoader_WebP_KR,Slot_000_LobbyLoader_WebP_KR_atlas0,Slot_100_SweetBonanza_WebP_KR,Slot_100_SweetBonanza_WebP_KR_atlas0",
+			"name": "Normal_WebPKR"
+		},
+		{
+			"keys": "Slot_000_LobbyLoader_WebP_CH,Slot_000_LobbyLoader_WebP_CH_atlas0,Slot_100_SweetBonanza_WebP_CH,Slot_100_SweetBonanza_WebP_CH_atlas0",
+			"name": "Normal_WebPCH"
+		},
+		{
+			"keys": "Slot_000_LobbyLoader_WebP_PH,Slot_000_LobbyLoader_WebP_PH_atlas0,Slot_100_SweetBonanza_WebP_PH,Slot_100_SweetBonanza_WebP_PH_atlas0",
+			"name": "Normal_WebPPH"
+		},
+		{
+			"keys": "Slot_000_LobbyLoader_VT,Slot_000_LobbyLoader_VT_atlas0,Slot_100_SweetBonanza_VT,Slot_100_SweetBonanza_VT_atlas0,Slot_100_SweetBonanza_EN,Slot_100_SweetBonanza_EN_atlas0",
+			"name": "NormalVT"
+		},
+		{
+			"keys": "Slot_000_LobbyLoader_PH,Slot_000_LobbyLoader_PH_atlas0,Slot_100_SweetBonanza_PH_atlas0,Slot_100_SweetBonanza_PH,Slot_100_SweetBonanza_EN,Slot_100_SweetBonanza_EN_atlas0",
+			"name": "NormalPH"
+		},
+		{
+			"keys": "Slot_000_LobbyLoader_ES,Slot_000_LobbyLoader_ES_atlas0,Slot_100_SweetBonanza_ES,Slot_100_SweetBonanza_ES_atlas0,Slot_100_SweetBonanza_EN,Slot_100_SweetBonanza_EN_atlas0",
+			"name": "NormalES"
+		},
+		{
+			"keys": "Slot_000_LobbyLoader_PT,Slot_000_LobbyLoader_PT_atlas0,Slot_100_SweetBonanza_PT,Slot_100_SweetBonanza_PT_atlas0,Slot_100_SweetBonanza_EN,Slot_100_SweetBonanza_EN_atlas0",
+			"name": "NormalPT"
+		},
+		{
+			"keys": "Slot_000_LobbyLoader_WebP_PT,Slot_000_LobbyLoader_WebP_PT_atlas0,Slot_100_SweetBonanza_WebP_PT,Slot_100_SweetBonanza_WebP_PT_atlas0",
+			"name": "Normal_WebPPT"
+		},
+		{
+			"keys": "Slot_000_LobbyLoader_WebP_ES,Slot_000_LobbyLoader_WebP_ES_atlas0,Slot_100_SweetBonanza_WebP_ES,Slot_100_SweetBonanza_WebP_ES_atlas0",
+			"name": "Normal_WebPES"
+		},
+		{
+			"keys": "Slot_000_LobbyLoader_CH,Slot_000_LobbyLoader_CH_atlas0,Slot_100_SweetBonanza_CH,Slot_100_SweetBonanza_CH_atlas0,Slot_100_SweetBonanza_EN,Slot_100_SweetBonanza_EN_atlas0",
+			"name": "NormalTW"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/SuperWin_DragonBone/slot_win/slot_win_tex.json",
+			"type": "json",
+			"name": "slot_win_tex_json"
+		},
+		{
+			"url": "assets/SuperWin_DragonBone/slot_win/slot_win_tex.png",
+			"type": "image",
+			"name": "slot_win_tex_png"
+		},
+		{
+			"url": "assets/loading.gif",
+			"type": "image",
+			"name": "loading_gif"
+		},
+		{
+			"url": "localTable/gamesetting.txt",
+			"type": "text",
+			"name": "gamesetting_txt"
+		},
+		{
+			"url": "assets/table/CoinSymbols.txt",
+			"type": "text",
+			"name": "CoinSymbols_txt"
+		},
+		{
+			"url": "assets/table/SlotBet.txt",
+			"type": "text",
+			"name": "SlotBet_txt"
+		},
+		{
+			"url": "assets/table/SlotLineName.txt",
+			"type": "text",
+			"name": "SlotLineName_txt"
+		},
+		{
+			"url": "assets/table/SlotRate.txt",
+			"type": "text",
+			"name": "SlotRate_txt"
+		},
+		{
+			"url": "assets/table/GameWinRate.txt",
+			"type": "text",
+			"name": "GameWinRate_txt"
+		},
+		{
+			"url": "assets/table/Localization.txt",
+			"type": "text",
+			"name": "Localization_txt"
+		},
+		{
+			"url": "assets/SuperWin_DragonBone/slot_win/slot_win_ske.dbbin",
+			"type": "bin",
+			"name": "slot_win_ske"
+		},
+		{
+			"url": "assets/table/ExcludeStack.txt",
+			"type": "text",
+			"name": "ExcludeStack_txt"
+		},
+		{
+			"url": "assets/table/SlotIconRate.txt",
+			"type": "text",
+			"name": "SlotIconRate_txt"
+		},
+		{
+			"url": "assets/table/MiscData.txt",
+			"type": "text",
+			"name": "MiscData_txt"
+		},
+		{
+			"url": "assets/table/SlotLine.txt",
+			"type": "text",
+			"name": "SlotLine_txt"
+		},
+		{
+			"url": "assets/sound/JH_FGX.mp3",
+			"type": "sound",
+			"name": "JH_FGX_mp3"
+		},
+		{
+			"url": "assets/sound/JX_win1.mp3",
+			"type": "sound",
+			"name": "JX_win1_mp3"
+		},
+		{
+			"url": "assets/sound/JX_win10.mp3",
+			"type": "sound",
+			"name": "JX_win10_mp3"
+		},
+		{
+			"url": "assets/sound/JX_win2.mp3",
+			"type": "sound",
+			"name": "JX_win2_mp3"
+		},
+		{
+			"url": "assets/sound/JX_win3.mp3",
+			"type": "sound",
+			"name": "JX_win3_mp3"
+		},
+		{
+			"url": "assets/sound/JX_win4.mp3",
+			"type": "sound",
+			"name": "JX_win4_mp3"
+		},
+		{
+			"url": "assets/sound/JX_win5.mp3",
+			"type": "sound",
+			"name": "JX_win5_mp3"
+		},
+		{
+			"url": "assets/sound/JX_win6.mp3",
+			"type": "sound",
+			"name": "JX_win6_mp3"
+		},
+		{
+			"url": "assets/sound/JX_win7.mp3",
+			"type": "sound",
+			"name": "JX_win7_mp3"
+		},
+		{
+			"url": "assets/sound/JX_win8.mp3",
+			"type": "sound",
+			"name": "JX_win8_mp3"
+		},
+		{
+			"url": "assets/sound/JX_win9.mp3",
+			"type": "sound",
+			"name": "JX_win9_mp3"
+		},
+		{
+			"url": "assets/sound/Lock.mp3",
+			"type": "sound",
+			"name": "Lock_mp3"
+		},
+		{
+			"url": "assets/sound/MaybeBonus.mp3",
+			"type": "sound",
+			"name": "MaybeBonus_mp3"
+		},
+		{
+			"url": "assets/sound/Stop.mp3",
+			"type": "sound",
+			"name": "Stop_mp3"
+		},
+		{
+			"url": "assets/sound/VIP_BGM_FG.mp3",
+			"type": "sound",
+			"name": "VIP_BGM_FG_mp3"
+		},
+		{
+			"url": "assets/sound/VIP_BGM_MAIN.mp3",
+			"type": "sound",
+			"name": "VIP_BGM_MAIN_mp3"
+		},
+		{
+			"url": "assets/sound/VIP_Coin1Stop.mp3",
+			"type": "sound",
+			"name": "VIP_Coin1Stop_mp3"
+		},
+		{
+			"url": "assets/sound/VIP_Coin2Stop.mp3",
+			"type": "sound",
+			"name": "VIP_Coin2Stop_mp3"
+		},
+		{
+			"url": "assets/sound/VIP_Coin3Stop.mp3",
+			"type": "sound",
+			"name": "VIP_Coin3Stop_mp3"
+		},
+		{
+			"url": "assets/sound/VIP_Coin4Stop.mp3",
+			"type": "sound",
+			"name": "VIP_Coin4Stop_mp3"
+		},
+		{
+			"url": "assets/sound/VIP_Coin5Stop.mp3",
+			"type": "sound",
+			"name": "VIP_Coin5Stop_mp3"
+		},
+		{
+			"url": "assets/sound/VIP_ReelStop.mp3",
+			"type": "sound",
+			"name": "VIP_ReelStop_mp3"
+		},
+		{
+			"url": "assets/sound/VIP_alarm.mp3",
+			"type": "sound",
+			"name": "VIP_alarm_mp3"
+		},
+		{
+			"url": "assets/sound/VIP_button.mp3",
+			"type": "sound",
+			"name": "VIP_button_mp3"
+		},
+		{
+			"url": "assets/sound/bigwin.mp3",
+			"type": "sound",
+			"name": "bigwin_mp3"
+		},
+		{
+			"url": "assets/sound/loop.mp3",
+			"type": "sound",
+			"name": "loop_mp3"
+		},
+		{
+			"url": "assets/sound/megawin.mp3",
+			"type": "sound",
+			"name": "megawin_mp3"
+		},
+		{
+			"url": "assets/sound/supermegawin.mp3",
+			"type": "sound",
+			"name": "supermegawin_mp3"
+		},
+		{
+			"url": "assets/sound/win.mp3",
+			"type": "sound",
+			"name": "win_mp3"
+		},
+		{
+			"url": "assets/sound/common/coin_main_win.mp3",
+			"type": "sound",
+			"name": "coin_main_win_mp3"
+		},
+		{
+			"url": "assets/sound/common/coin_main_win01.mp3",
+			"type": "sound",
+			"name": "coin_main_win01_mp3"
+		},
+		{
+			"url": "assets/sound/common/win_bgm_1.mp3",
+			"type": "sound",
+			"name": "win_bgm_1_mp3"
+		},
+		{
+			"url": "assets/sound/common/win_bgm_2.mp3",
+			"type": "sound",
+			"name": "win_bgm_2_mp3"
+		},
+		{
+			"url": "assets/sound/common/win_bgm_3.mp3",
+			"type": "sound",
+			"name": "win_bgm_3_mp3"
+		},
+		{
+			"url": "assets/sound/common/win_os_1.mp3",
+			"type": "sound",
+			"name": "win_os_1_mp3"
+		},
+		{
+			"url": "assets/sound/common/win_os_2.mp3",
+			"type": "sound",
+			"name": "win_os_2_mp3"
+		},
+		{
+			"url": "assets/sound/common/win_os_3.mp3",
+			"type": "sound",
+			"name": "win_os_3_mp3"
+		},
+		{
+			"url": "assets/F2MW_Common/Slot_000_ICashCrownCommon.fui",
+			"type": "bin",
+			"name": "Slot_000_ICashCrownCommon"
+		},
+		{
+			"url": "assets/F2MW_Common/Slot_000_ICashCrownCommon_atlas0.png",
+			"type": "image",
+			"name": "Slot_000_ICashCrownCommon_atlas0"
+		},
+		{
+			"url": "assets/F2MW_LobbyBar/Slot_000_LobbyLoader.fui",
+			"type": "bin",
+			"name": "Slot_000_LobbyLoader"
+		},
+		{
+			"url": "assets/F2MW_LobbyBar/Slot_000_LobbyLoader_CH.fui",
+			"type": "bin",
+			"name": "Slot_000_LobbyLoader_CH"
+		},
+		{
+			"url": "assets/F2MW_LobbyBar/Slot_000_LobbyLoader_CH_atlas0.png",
+			"type": "image",
+			"name": "Slot_000_LobbyLoader_CH_atlas0"
+		},
+		{
+			"url": "assets/F2MW_LobbyBar/Slot_000_LobbyLoader_EN.fui",
+			"type": "bin",
+			"name": "Slot_000_LobbyLoader_EN"
+		},
+		{
+			"url": "assets/F2MW_LobbyBar/Slot_000_LobbyLoader_EN_atlas0.png",
+			"type": "image",
+			"name": "Slot_000_LobbyLoader_EN_atlas0"
+		},
+		{
+			"url": "assets/F2MW_LobbyBar/Slot_000_LobbyLoader_IN.fui",
+			"type": "bin",
+			"name": "Slot_000_LobbyLoader_IN"
+		},
+		{
+			"url": "assets/F2MW_LobbyBar/Slot_000_LobbyLoader_IN_atlas0.png",
+			"type": "image",
+			"name": "Slot_000_LobbyLoader_IN_atlas0"
+		},
+		{
+			"url": "assets/F2MW_LobbyBar/Slot_000_LobbyLoader_KR.fui",
+			"type": "bin",
+			"name": "Slot_000_LobbyLoader_KR"
+		},
+		{
+			"url": "assets/F2MW_LobbyBar/Slot_000_LobbyLoader_KR_atlas0.png",
+			"type": "image",
+			"name": "Slot_000_LobbyLoader_KR_atlas0"
+		},
+		{
+			"url": "assets/F2MW_LobbyBar/Slot_000_LobbyLoader_PH.fui",
+			"type": "bin",
+			"name": "Slot_000_LobbyLoader_PH"
+		},
+		{
+			"url": "assets/F2MW_LobbyBar/Slot_000_LobbyLoader_PH_atlas0.png",
+			"type": "image",
+			"name": "Slot_000_LobbyLoader_PH_atlas0"
+		},
+		{
+			"url": "assets/F2MW_LobbyBar/Slot_000_LobbyLoader_TH.fui",
+			"type": "bin",
+			"name": "Slot_000_LobbyLoader_TH"
+		},
+		{
+			"url": "assets/F2MW_LobbyBar/Slot_000_LobbyLoader_TH_atlas0.png",
+			"type": "image",
+			"name": "Slot_000_LobbyLoader_TH_atlas0"
+		},
+		{
+			"url": "assets/F2MW_LobbyBar/Slot_000_LobbyLoader_VT.fui",
+			"type": "bin",
+			"name": "Slot_000_LobbyLoader_VT"
+		},
+		{
+			"url": "assets/F2MW_LobbyBar/Slot_000_LobbyLoader_VT_atlas0.png",
+			"type": "image",
+			"name": "Slot_000_LobbyLoader_VT_atlas0"
+		},
+		{
+			"url": "assets/F2MW_LobbyBar/Slot_000_LobbyLoader_atlas0.png",
+			"type": "image",
+			"name": "Slot_000_LobbyLoader_atlas0"
+		},
+		{
+			"url": "assets/F2MW_LobbyBar/Slot_000_LobbyLoader_JP.fui",
+			"type": "bin",
+			"name": "Slot_000_LobbyLoader_JP"
+		},
+		{
+			"url": "assets/F2MW_LobbyBar/Slot_000_LobbyLoader_JP_atlas0.png",
+			"type": "image",
+			"name": "Slot_000_LobbyLoader_JP_atlas0"
+		},
+		{
+			"url": "assets/F2MW_LobbyBar/WebP/Slot_000_LobbyLoader_WebP.fui",
+			"type": "bin",
+			"name": "Slot_000_LobbyLoader_WebP"
+		},
+		{
+			"url": "assets/F2MW_LobbyBar/WebP/Slot_000_LobbyLoader_WebP_CH.fui",
+			"type": "bin",
+			"name": "Slot_000_LobbyLoader_WebP_CH"
+		},
+		{
+			"url": "assets/F2MW_LobbyBar/WebP/Slot_000_LobbyLoader_WebP_CH_atlas0.webp",
+			"type": "image",
+			"name": "Slot_000_LobbyLoader_WebP_CH_atlas0"
+		},
+		{
+			"url": "assets/F2MW_LobbyBar/WebP/Slot_000_LobbyLoader_WebP_EN.fui",
+			"type": "bin",
+			"name": "Slot_000_LobbyLoader_WebP_EN"
+		},
+		{
+			"url": "assets/F2MW_LobbyBar/WebP/Slot_000_LobbyLoader_WebP_EN_atlas0.webp",
+			"type": "image",
+			"name": "Slot_000_LobbyLoader_WebP_EN_atlas0"
+		},
+		{
+			"url": "assets/F2MW_LobbyBar/WebP/Slot_000_LobbyLoader_WebP_IN.fui",
+			"type": "bin",
+			"name": "Slot_000_LobbyLoader_WebP_IN"
+		},
+		{
+			"url": "assets/F2MW_LobbyBar/WebP/Slot_000_LobbyLoader_WebP_IN_atlas0.webp",
+			"type": "image",
+			"name": "Slot_000_LobbyLoader_WebP_IN_atlas0"
+		},
+		{
+			"url": "assets/F2MW_LobbyBar/WebP/Slot_000_LobbyLoader_WebP_KR.fui",
+			"type": "bin",
+			"name": "Slot_000_LobbyLoader_WebP_KR"
+		},
+		{
+			"url": "assets/F2MW_LobbyBar/WebP/Slot_000_LobbyLoader_WebP_KR_atlas0.webp",
+			"type": "image",
+			"name": "Slot_000_LobbyLoader_WebP_KR_atlas0"
+		},
+		{
+			"url": "assets/F2MW_LobbyBar/WebP/Slot_000_LobbyLoader_WebP_PH.fui",
+			"type": "bin",
+			"name": "Slot_000_LobbyLoader_WebP_PH"
+		},
+		{
+			"url": "assets/F2MW_LobbyBar/WebP/Slot_000_LobbyLoader_WebP_PH_atlas0.webp",
+			"type": "image",
+			"name": "Slot_000_LobbyLoader_WebP_PH_atlas0"
+		},
+		{
+			"url": "assets/F2MW_LobbyBar/WebP/Slot_000_LobbyLoader_WebP_TH.fui",
+			"type": "bin",
+			"name": "Slot_000_LobbyLoader_WebP_TH"
+		},
+		{
+			"url": "assets/F2MW_LobbyBar/WebP/Slot_000_LobbyLoader_WebP_TH_atlas0.webp",
+			"type": "image",
+			"name": "Slot_000_LobbyLoader_WebP_TH_atlas0"
+		},
+		{
+			"url": "assets/F2MW_LobbyBar/WebP/Slot_000_LobbyLoader_WebP_VT.fui",
+			"type": "bin",
+			"name": "Slot_000_LobbyLoader_WebP_VT"
+		},
+		{
+			"url": "assets/F2MW_LobbyBar/WebP/Slot_000_LobbyLoader_WebP_VT_atlas0.webp",
+			"type": "image",
+			"name": "Slot_000_LobbyLoader_WebP_VT_atlas0"
+		},
+		{
+			"url": "assets/F2MW_LobbyBar/WebP/Slot_000_LobbyLoader_WebP_atlas0.webp",
+			"type": "image",
+			"name": "Slot_000_LobbyLoader_WebP_atlas0"
+		},
+		{
+			"url": "assets/F2MW_LobbyBar/WebP/Slot_000_LobbyLoader_WebP_JP.fui",
+			"type": "bin",
+			"name": "Slot_000_LobbyLoader_WebP_JP"
+		},
+		{
+			"url": "assets/F2MW_LobbyBar/WebP/Slot_000_LobbyLoader_WebP_JP_atlas0.webp",
+			"type": "image",
+			"name": "Slot_000_LobbyLoader_WebP_JP_atlas0"
+		},
+		{
+			"url": "assets/F2MW_LobbyBar/Slot_000_LobbyLoader_ES.fui",
+			"type": "bin",
+			"name": "Slot_000_LobbyLoader_ES"
+		},
+		{
+			"url": "assets/F2MW_LobbyBar/Slot_000_LobbyLoader_ES_atlas0.png",
+			"type": "image",
+			"name": "Slot_000_LobbyLoader_ES_atlas0"
+		},
+		{
+			"url": "assets/F2MW_LobbyBar/Slot_000_LobbyLoader_PT.fui",
+			"type": "bin",
+			"name": "Slot_000_LobbyLoader_PT"
+		},
+		{
+			"url": "assets/F2MW_LobbyBar/Slot_000_LobbyLoader_PT_atlas0.png",
+			"type": "image",
+			"name": "Slot_000_LobbyLoader_PT_atlas0"
+		},
+		{
+			"url": "assets/table/BuyBonus.txt",
+			"type": "text",
+			"name": "BuyBonus_txt"
+		},
+		{
+			"url": "assets/F2MW_LobbyBar/WebP/Slot_000_LobbyLoader_WebP_PT.fui",
+			"type": "bin",
+			"name": "Slot_000_LobbyLoader_WebP_PT"
+		},
+		{
+			"url": "assets/F2MW_LobbyBar/WebP/Slot_000_LobbyLoader_WebP_PT_atlas0.webp",
+			"type": "image",
+			"name": "Slot_000_LobbyLoader_WebP_PT_atlas0"
+		},
+		{
+			"url": "assets/F2MW_LobbyBar/WebP/Slot_000_LobbyLoader_WebP_ES.fui",
+			"type": "bin",
+			"name": "Slot_000_LobbyLoader_WebP_ES"
+		},
+		{
+			"url": "assets/F2MW_LobbyBar/WebP/Slot_000_LobbyLoader_WebP_ES_atlas0.webp",
+			"type": "image",
+			"name": "Slot_000_LobbyLoader_WebP_ES_atlas0"
+		},
+		{
+			"url": "assets/Slot_100_SweetBonanza.fui",
+			"type": "bin",
+			"name": "Slot_100_SweetBonanza"
+		},
+		{
+			"url": "assets/Slot_100_SweetBonanza_atlas0.png",
+			"type": "image",
+			"name": "Slot_100_SweetBonanza_atlas0"
+		},
+		{
+			"url": "assets/Slot_100_SweetBonanza_atlas0_1.png",
+			"type": "image",
+			"name": "Slot_100_SweetBonanza_atlas0_1"
+		},
+		{
+			"url": "assets/Slot_100_SweetBonanza_atlas0_2.png",
+			"type": "image",
+			"name": "Slot_100_SweetBonanza_atlas0_2"
+		},
+		{
+			"url": "assets/Slot_100_SweetBonanza_atlas0_3.png",
+			"type": "image",
+			"name": "Slot_100_SweetBonanza_atlas0_3"
+		},
+		{
+			"url": "assets/Slot_100_SweetBonanza_EN.fui",
+			"type": "bin",
+			"name": "Slot_100_SweetBonanza_EN"
+		},
+		{
+			"url": "assets/Slot_100_SweetBonanza_EN_atlas0.png",
+			"type": "image",
+			"name": "Slot_100_SweetBonanza_EN_atlas0"
+		},
+		{
+			"url": "assets/Slot_100_SweetBonanza_CH.fui",
+			"type": "bin",
+			"name": "Slot_100_SweetBonanza_CH"
+		},
+		{
+			"url": "assets/Slot_100_SweetBonanza_CH_atlas0.png",
+			"type": "image",
+			"name": "Slot_100_SweetBonanza_CH_atlas0"
+		},
+		{
+			"url": "assets/Slot_100_SweetBonanza_ES.fui",
+			"type": "bin",
+			"name": "Slot_100_SweetBonanza_ES"
+		},
+		{
+			"url": "assets/Slot_100_SweetBonanza_ES_atlas0.png",
+			"type": "image",
+			"name": "Slot_100_SweetBonanza_ES_atlas0"
+		},
+		{
+			"url": "assets/Slot_100_SweetBonanza_IN.fui",
+			"type": "bin",
+			"name": "Slot_100_SweetBonanza_IN"
+		},
+		{
+			"url": "assets/Slot_100_SweetBonanza_IN_atlas0.png",
+			"type": "image",
+			"name": "Slot_100_SweetBonanza_IN_atlas0"
+		},
+		{
+			"url": "assets/Slot_100_SweetBonanza_JP.fui",
+			"type": "bin",
+			"name": "Slot_100_SweetBonanza_JP"
+		},
+		{
+			"url": "assets/Slot_100_SweetBonanza_JP_atlas0.png",
+			"type": "image",
+			"name": "Slot_100_SweetBonanza_JP_atlas0"
+		},
+		{
+			"url": "assets/Slot_100_SweetBonanza_KR.fui",
+			"type": "bin",
+			"name": "Slot_100_SweetBonanza_KR"
+		},
+		{
+			"url": "assets/Slot_100_SweetBonanza_KR_atlas0.png",
+			"type": "image",
+			"name": "Slot_100_SweetBonanza_KR_atlas0"
+		},
+		{
+			"url": "assets/Slot_100_SweetBonanza_PH.fui",
+			"type": "bin",
+			"name": "Slot_100_SweetBonanza_PH"
+		},
+		{
+			"url": "assets/Slot_100_SweetBonanza_PH_atlas0.png",
+			"type": "image",
+			"name": "Slot_100_SweetBonanza_PH_atlas0"
+		},
+		{
+			"url": "assets/Slot_100_SweetBonanza_PT.fui",
+			"type": "bin",
+			"name": "Slot_100_SweetBonanza_PT"
+		},
+		{
+			"url": "assets/Slot_100_SweetBonanza_PT_atlas0.png",
+			"type": "image",
+			"name": "Slot_100_SweetBonanza_PT_atlas0"
+		},
+		{
+			"url": "assets/Slot_100_SweetBonanza_TH.fui",
+			"type": "bin",
+			"name": "Slot_100_SweetBonanza_TH"
+		},
+		{
+			"url": "assets/Slot_100_SweetBonanza_TH_atlas0.png",
+			"type": "image",
+			"name": "Slot_100_SweetBonanza_TH_atlas0"
+		},
+		{
+			"url": "assets/Slot_100_SweetBonanza_VT.fui",
+			"type": "bin",
+			"name": "Slot_100_SweetBonanza_VT"
+		},
+		{
+			"url": "assets/Slot_100_SweetBonanza_VT_atlas0.png",
+			"type": "image",
+			"name": "Slot_100_SweetBonanza_VT_atlas0"
+		},
+		{
+			"url": "assets/WebP/Slot_100_SweetBonanza_WebP.fui",
+			"type": "bin",
+			"name": "Slot_100_SweetBonanza_WebP"
+		},
+		{
+			"url": "assets/WebP/Slot_100_SweetBonanza_WebP_CH.fui",
+			"type": "bin",
+			"name": "Slot_100_SweetBonanza_WebP_CH"
+		},
+		{
+			"url": "assets/WebP/Slot_100_SweetBonanza_WebP_CH_atlas0.webp",
+			"type": "image",
+			"name": "Slot_100_SweetBonanza_WebP_CH_atlas0"
+		},
+		{
+			"url": "assets/WebP/Slot_100_SweetBonanza_WebP_EN.fui",
+			"type": "bin",
+			"name": "Slot_100_SweetBonanza_WebP_EN"
+		},
+		{
+			"url": "assets/WebP/Slot_100_SweetBonanza_WebP_EN_atlas0.webp",
+			"type": "image",
+			"name": "Slot_100_SweetBonanza_WebP_EN_atlas0"
+		},
+		{
+			"url": "assets/WebP/Slot_100_SweetBonanza_WebP_ES.fui",
+			"type": "bin",
+			"name": "Slot_100_SweetBonanza_WebP_ES"
+		},
+		{
+			"url": "assets/WebP/Slot_100_SweetBonanza_WebP_ES_atlas0.webp",
+			"type": "image",
+			"name": "Slot_100_SweetBonanza_WebP_ES_atlas0"
+		},
+		{
+			"url": "assets/WebP/Slot_100_SweetBonanza_WebP_IN.fui",
+			"type": "bin",
+			"name": "Slot_100_SweetBonanza_WebP_IN"
+		},
+		{
+			"url": "assets/WebP/Slot_100_SweetBonanza_WebP_IN_atlas0.webp",
+			"type": "image",
+			"name": "Slot_100_SweetBonanza_WebP_IN_atlas0"
+		},
+		{
+			"url": "assets/WebP/Slot_100_SweetBonanza_WebP_JP.fui",
+			"type": "bin",
+			"name": "Slot_100_SweetBonanza_WebP_JP"
+		},
+		{
+			"url": "assets/WebP/Slot_100_SweetBonanza_WebP_JP_atlas0.webp",
+			"type": "image",
+			"name": "Slot_100_SweetBonanza_WebP_JP_atlas0"
+		},
+		{
+			"url": "assets/WebP/Slot_100_SweetBonanza_WebP_KR.fui",
+			"type": "bin",
+			"name": "Slot_100_SweetBonanza_WebP_KR"
+		},
+		{
+			"url": "assets/WebP/Slot_100_SweetBonanza_WebP_KR_atlas0.webp",
+			"type": "image",
+			"name": "Slot_100_SweetBonanza_WebP_KR_atlas0"
+		},
+		{
+			"url": "assets/WebP/Slot_100_SweetBonanza_WebP_PH.fui",
+			"type": "bin",
+			"name": "Slot_100_SweetBonanza_WebP_PH"
+		},
+		{
+			"url": "assets/WebP/Slot_100_SweetBonanza_WebP_PH_atlas0.webp",
+			"type": "image",
+			"name": "Slot_100_SweetBonanza_WebP_PH_atlas0"
+		},
+		{
+			"url": "assets/WebP/Slot_100_SweetBonanza_WebP_PT.fui",
+			"type": "bin",
+			"name": "Slot_100_SweetBonanza_WebP_PT"
+		},
+		{
+			"url": "assets/WebP/Slot_100_SweetBonanza_WebP_PT_atlas0.webp",
+			"type": "image",
+			"name": "Slot_100_SweetBonanza_WebP_PT_atlas0"
+		},
+		{
+			"url": "assets/WebP/Slot_100_SweetBonanza_WebP_TH.fui",
+			"type": "bin",
+			"name": "Slot_100_SweetBonanza_WebP_TH"
+		},
+		{
+			"url": "assets/WebP/Slot_100_SweetBonanza_WebP_TH_atlas0.webp",
+			"type": "image",
+			"name": "Slot_100_SweetBonanza_WebP_TH_atlas0"
+		},
+		{
+			"url": "assets/WebP/Slot_100_SweetBonanza_WebP_VT.fui",
+			"type": "bin",
+			"name": "Slot_100_SweetBonanza_WebP_VT"
+		},
+		{
+			"url": "assets/WebP/Slot_100_SweetBonanza_WebP_VT_atlas0.webp",
+			"type": "image",
+			"name": "Slot_100_SweetBonanza_WebP_VT_atlas0"
+		},
+		{
+			"url": "assets/WebP/Slot_100_SweetBonanza_WebP_atlas0.webp",
+			"type": "image",
+			"name": "Slot_100_SweetBonanza_WebP_atlas0"
+		},
+		{
+			"url": "assets/WebP/Slot_100_SweetBonanza_WebP_atlas0_1.webp",
+			"type": "image",
+			"name": "Slot_100_SweetBonanza_WebP_atlas0_1"
+		},
+		{
+			"url": "assets/WebP/Slot_100_SweetBonanza_WebP_atlas0_2.webp",
+			"type": "image",
+			"name": "Slot_100_SweetBonanza_WebP_atlas0_2"
+		},
+		{
+			"url": "assets/WebP/Slot_100_SweetBonanza_WebP_atlas0_3.webp",
+			"type": "image",
+			"name": "Slot_100_SweetBonanza_WebP_atlas0_3"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+{
+	"LoginIP": "ingame.djmusic.me",
+	"port": 9090,
+	"ErrorUrl": "http://192.168.9.23:8888/api/game_error",
+	"InfoUrl": "http://icgame.djmusic.me:8088/hs-game/client/",
+	"UseSpMode": true,
+	"HistoryUrl": "http://192.168.9.201:8088/as-lobby/lobby/gameInformation.do",
+	"HistoryUseWebView": false,
+	"CDNUrl": ["http://mwstg.666wins.com/as-lobby/activity/activityInformation.do"],
+	"ResUrl": "resource/",
+	"ImageUrl": "http://icgame.djmusic.me:8088/H5INGAME-OUT/3.0/Marquee/AvatarMarqueeImage/",
+	"IconURL": "http://icgame.djmusic.me:8088/H5INGAME-OUT/3.0/Marquee/Icon/",
+	"Marquee": [100,100000,100000]
+}

@@ -1,0 +1,59 @@
+{
+  "engineVersion": "5.2.17",
+  "compilerVersion": "5.2.17",
+  "template": {},
+  "target": {
+    "current": "web"
+  },
+  "modules": [
+    {
+      "name": "egret"
+    },
+    {
+      "name": "game"
+    },
+    {
+      "name": "assetsmanager"
+    },
+    {
+      "name": "tween"
+    },
+    {
+      "name": "promise"
+    },
+    {
+      "name": "dragonBones"
+    },
+    {
+      "name": "dragonBones"
+    },
+    {
+      "name": "photon",
+      "path": "./../EgretSDK/Photon/"
+    },
+    {
+      "name": "fairygui",
+      "path": "./../EgretSDK/fairygui/"
+    },
+    {
+      "name": "rawinflate",
+      "path": "./../EgretSDK/rawinflate/"
+    },
+    {
+      "name": "howler",
+      "path": "./../EgretSDK/howler/"
+    },
+    {
+      "name": "particle",
+      "path": "./../EgretSDK/particle/"
+    },
+    {
+      "name": "mouse",
+      "path": "./../EgretSDK/mouse/"
+    },
+    {
+      "name": "apngCanvas",
+      "path": "./../EgretSDK/apng-canvas/"
+    }
+  ]
+}
